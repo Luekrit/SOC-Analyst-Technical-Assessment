@@ -1,4 +1,4 @@
-# 🧩 SOC Analyst Technical Assessment
+# 🧩 SOC Analyst Technical Assessment (Learning Template)
 
 ## 📘 Overview
 This project demonstrates my ability to perform end-to-end SOC analysis — from SIEM alert triage and log correlation to MITRE ATT&CK mapping and incident response reporting.  
@@ -62,3 +62,5 @@ Immediate containment actions were taken, and long-term improvements such as **E
 **Luekrit Kongkamon**  
 Aspiring Cloud & Cybersecurity Analyst | SOC | IAM | Cloud Security  
 [LinkedIn](https://linkedin.com/in/luekritkongkamon) | [GitHub](https://github.com/luekrit)
+
+ *This template is used for learning and documentation purposes to simulate SOC workflows and professional reporting style.*
