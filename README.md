@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 This project demonstrates my ability to perform end-to-end SOC analysis — from SIEM alert triage and log correlation to MITRE ATT&CK mapping and incident response reporting.  
-The assessment simulates a **ransomware attack** delivered through a phishing campaign, requiring log analysis, threat hunting, and response planning.
+
 
 ---
 
