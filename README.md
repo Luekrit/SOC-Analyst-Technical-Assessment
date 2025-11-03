@@ -6,7 +6,7 @@ The assessment simulates a **ransomware attack** delivered through a phishing ca
 
 ---
 
-## 🧠 Part 1 – SIEM Alert Analysis
+## 🧠 Step 1 – SIEM Alert Analysis
 Analyzed 5 alerts to identify true vs false positives:
 - **Brute Force Attack (Critical)** – multiple failed DB logins from 203.0.113.42  
 - **Phishing Email Malware Detection (High)** – malicious emails from `supplierxyz-invoices.com`  
@@ -14,7 +14,7 @@ Analyzed 5 alerts to identify true vs false positives:
 
 ---
 
-## 🕵️ Part 2 – Log Analysis & Threat Hunting
+## 🕵️ Step 2 – Log Analysis & Threat Hunting
 - Detected **RDP connection from external IP (198.51.100.73)** using compromised credentials.  
 - Observed **Mimikatz execution** for privilege escalation (`SeDebugPrivilege`).  
 - Correlated events across **Firewall, Windows, and EDR logs** to trace lateral movement and data exfiltration.
@@ -34,14 +34,14 @@ Analyzed 5 alerts to identify true vs false positives:
 
 ---
 
-## 🚨 Part 3 – Incident Response
+## 🚨 Step 3 – Incident Response
 - Contained the spread by **disabling SMB traffic** and isolating infected hosts.  
 - Identified **IOCs:** `.locked` file extension, `invoice_payment.pdf.exe` payload, `.onion` URLs.  
 - Recommended **account disablement, password resets, and MFA enforcement.**
 
 ---
 
-## 🧾 Part 4 – Executive Summary
+## 🧾 Step 4 – Executive Summary
 At 04:30 AM, multiple employees reported file access issues.  
 Investigation confirmed a **ransomware attack via phishing email** leading to SMB propagation and encryption.  
 Immediate containment actions were taken, and long-term improvements such as **EDR deployment, phishing awareness, and network segmentation** were proposed.
