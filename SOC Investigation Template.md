@@ -1,11 +1,3 @@
-# SOC Analyst Technical Assessment Template
-
-## Overview
-This project demonstrates my ability to perform end-to-end SOC analysis — from SIEM alert triage and log correlation to MITRE ATT&CK mapping and incident response reporting.  
-
-
----
-
 # SOC Analyst – SIEM Alert Analysis Template
 
 A reusable template for documenting SIEM alerts in a structured and standardized format.
@@ -460,7 +452,7 @@ Use this table to summarize all tactics & techniques observed (or expected in th
 
 Use this section to describe each technique in more detail, including logs, indicators, and context.
 
-#### 🟦 **Initial Access (TA0001)**  
+####  **Initial Access (TA0001)**  
 Attackers may gain a foothold through social engineering or compromised credentials.
 
 **Techniques Possibly Involved:**
@@ -471,7 +463,7 @@ Attackers may gain a foothold through social engineering or compromised credenti
   - Indicators: Successful login after multiple failures  
   - Logs: Windows Event 4624/4625, VPN logs, Cloud Sign-In logs  
 
-#### 🟦 **Execution (TA0002)**  
+####  **Execution (TA0002)**  
 Running malicious code or scripts on the system.
 
 **Key Techniques:**
@@ -481,7 +473,7 @@ Running malicious code or scripts on the system.
 - **Native Binaries (LOLBins) – T1059**  
   - Examples: `certutil`, `wmic`, `mshta`, `rundll32`
 
-#### 🟦 **Persistence (TA0003)**  
+####  **Persistence (TA0003)**  
 Maintaining access after initial compromise.
 
 **Techniques:**
@@ -492,7 +484,7 @@ Maintaining access after initial compromise.
   - Sysmon Event 13  
   - Persistence through Run/RunOnce keys  
 
-#### 🟦 **Privilege Escalation (TA0004)**  
+####  **Privilege Escalation (TA0004)**  
 Gaining higher-level permissions.
 
 **Techniques:**
@@ -501,7 +493,7 @@ Gaining higher-level permissions.
 - **Token Impersonation / Manipulation (T1134)**  
   - EDR telemetry showing suspicious LSASS access  
 
-#### 🟦 **Defense Evasion (TA0005)**  
+####  **Defense Evasion (TA0005)**  
 Attempting to hide activity.
 
 **Techniques:**
@@ -510,7 +502,7 @@ Attempting to hide activity.
 - **Clear Windows Event Logs (T1070)**  
   - Windows Event 1102 — “The audit log was cleared.”
 
-#### 🟦 **Credential Access (TA0006)**  
+####  **Credential Access (TA0006)**  
 Extracting or stealing credentials.
 
 **Techniques:**
@@ -518,7 +510,7 @@ Extracting or stealing credentials.
   - Sysmon showing `lsass.exe` memory access  
   - EDR alerts detecting credential harvesting tools  
 
-#### 🟦 **Discovery (TA0007)**  
+####  **Discovery (TA0007)**  
 Learning about hosts, users, and environments.
 
 **Techniques:**
@@ -528,7 +520,7 @@ Learning about hosts, users, and environments.
   - Sysmon 3 showing network connections  
   - Lateral movement reconnaissance  
 
-#### 🟦 **Lateral Movement (TA0008)**  
+####  **Lateral Movement (TA0008)**  
 Moving through the network to additional assets.
 
 **Techniques:**
@@ -537,7 +529,7 @@ Moving through the network to additional assets.
 - **SMB / Admin Shares (T1021.002)**  
   - Attempts to access `C$`, `ADMIN$` shares  
 
-#### 🟦 **Collection (TA0009)**  
+####  **Collection (TA0009)**  
 Gathering data of interest.
 
 **Techniques:**
@@ -545,7 +537,7 @@ Gathering data of interest.
   - Access to sensitive files/folders  
 - **Clipboard Collection (T1115)** (if applicable)
 
-#### 🟦 **Exfiltration (TA0010)**  
+####  **Exfiltration (TA0010)**  
 Sending collected data outside the environment.
 
 **Techniques:**
@@ -555,7 +547,7 @@ Sending collected data outside the environment.
 - **Exfiltration Over C2 Channel (T1041)**  
   - Regular timed DNS or HTTP beacons  
 
-#### 🟦 **Command and Control (TA0011)**  
+####  **Command and Control (TA0011)**  
 Remote management or communication.
 
 **Techniques:**
@@ -1344,7 +1336,7 @@ Use this table format to document your collected network evidence:
 
 This subsection documents **malicious or suspicious files** discovered during the investigation. These can include droppers, payloads, tools, or scripts.
 
-#### ⚠️ Safety Warning (For Public Repos)
+####  Safety Warning (For Public Repos)
 
 If using GitHub (especially public):
 
@@ -1507,5 +1499,5 @@ This subsection provides a **brief, high-level summary** of all collected eviden
 Aspiring Cloud & Cybersecurity Analyst | SOC | IAM | Cloud Security  
 [LinkedIn](https://linkedin.com/in/luekritkongkamon) | [GitHub](https://github.com/luekrit)
 
- *This template is used for learning and documentation purposes to simulate SOC workflows and professional reporting style.*
+ *This template is used for learning and documentation purposes to simulate SOC workflows and a professional reporting style.*
 
