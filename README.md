@@ -20,7 +20,7 @@ A simulated SOC investigation involving multiple failed RDP logins followed by a
 
 A lab-based SOC investigation using telemetry from my Azure Security Operations & Threat Detection lab. This case study focuses on Windows Security Event ID 4625, failed logon analysis, Microsoft Sentinel / Log Analytics investigation workflow, KQL queries, source IP review, MITRE ATT&CK mapping, and defensive recommendations.
 
-**Case Study:** [Azure SOC Failed Logon Investigation](case-studies/case-study-02-azure-soc-failed-logon-investigation.md)
+**Case Study:** [Azure SOC Failed Logon Investigation](case-studies/case%20study%2002%20azure%20soc%20failed%20logon%20investigation.md)
 
 > Note: These case studies use simulated or lab-generated security telemetry for portfolio demonstration purposes. No real company logs, customer data, or sensitive information are included.
 
